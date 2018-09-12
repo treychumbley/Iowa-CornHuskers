@@ -1,0 +1,365 @@
+
+--------------------------------------------------
+
+CSE HTML Validator Standard v17.05 (Registered)
+Checking "C:\Users\sam.adeniyi\Desktop\Assignment 1\public_html\assignment1_news.html" (1905 characters).
+File date is Tuesday, September 11, 2018 at 8:13:57 PM.
+File checked on Tuesday, September 11, 2018 at 8:15:37 PM.
+
+     Number of lines checked: 47 in 0.00 seconds
+ Number of lines in document: 47 (100.0% of lines checked)
+     Number of lines ignored: 0
+Number of character entities: 2
+        Number of start tags: 40
+          Number of end tags: 31 (77.5% of start tags with end tags)
+Number of <% ... %> sections: 0
+     Number of HTML comments: 1
+
+Number of validator comments: 13
+          Number of messages: 11
+            Number of errors: 0
+          Number of warnings: 1
+
+--------------------------------------------------
+
+[CSE] Warning number 1:
+Possibly misspelled words (17, 11 unique): Adeniy (1x),
+Adeniyi (1x), Cornhusker (1x), DB (1x), EBG (1x), Krah (1x),
+OC (1x), QB (1x), WR (1x), DaBlack (2x), Cornhuskers (6x).
+Complete list. 208 total words checked (0 in comments).
+
+   1: <!DOCTYPE html>
+-------|||||||||||||
+
+[CSE] Message number 1 in line 1:2:
+An HTML5 DOCTYPE was found. HTML5 (sometimes called just
+HTML) is in a constant state of flux. While many parts of
+HTML5 are considered stable and safe to use, there are parts
+that are not stable or that may not be well supported by
+browsers. When using HTML5, be sure to understand the
+potential problems when using parts and features that may
+not be stable (and thus may change in the future) or that
+may not be widely supported. Visit
+https://www.htmlvalidator.com/help.php?m=3&h=safetouse for
+information about what is safe to use.
+
+   2: <!-- Sam Adeniyi-->
+   3: 
+   4: <html lang = "en">
+   5: 
+   6: <head>
+   7:     <meta charset = "utf-8">
+
+   8:     <title>2018 News</title>
+-----------|||||
+
+[CSE] Message number 2 in line 8:6:
+Tip - A good title is important for search engine listings.
+Try to use keywords and search terms in the title but keep
+it readable and not too long. Don't just stuff keywords in
+the title. The first words in the title are more likely to
+result in higher rankings than subsequent words, so use
+important keywords at the very beginning when reasonable.
+The title should also be something that a user will want to
+click on when it's listed on a search results page. A good
+title is also important when a visitor bookmarks a page.
+Example: <title>Download CSE HTML Validator - Powerful HTML
+and Link Checking Software for Windows</title>. We recommend
+that the "title" tag be one of the first tags inside the
+"head" section (but after any meta charset or viewport
+tags).
+
+   8:     <title>2018 News</title>
+-----------------|||||||||
+
+[CSE] Message number 3 in line 8:12:
+This document's title contains only 2 words. It may be
+inadequate for search engine purposes. A good title is
+important to your search engine rankings and listings.
+Optimal page title length is 5-15 words and no more than 60
+characters (Google typically displays the first 50-60
+characters but it's a good idea to keep titles under 55
+characters so they display properly most of the time). The
+title should contain relevant and descriptive phrases and/or
+relevant keywords and search terms while also remaining
+human-readable. If possible, use important keywords at the
+very beginning of the title.
+
+   9: </head>
+  10: 
+  11: <body>
+
+  12: <h1>Iowa Cornhuskers 2018 News<br>
+----------|||||||||||||||||||||||||||||||
+
+[CSE] Message number 4 in line 12:5:
+[118] The text content of the "h1" element ends with
+whitespace. While technically allowable, this whitespace may
+not be wanted. NOTE: Newlines (line breaks) are considered
+whitespace. This message is displayed up to 5 times.
+
+  12: <h1>Iowa Cornhuskers 2018 News<br>
+-------------------------------------||
+
+[CSE] Message number 5 in line 12:32:
+Ensure that the "br" element is used only for line breaks
+that are actually part of the content, as in poems or
+addresses. For presentational formatting, CSS should be
+used. This message is displayed only once.
+
+  13: <img alt="logo image" src="img/logo_assignment1.png"/></h1>
+-------|||
+
+[CSE] Message number 6 in line 13:2:
+Image searches can be a significant source of visitors and
+traffic. Therefore, try to use keywords when naming images,
+and separate keywords with hyphens (not underscores). This
+message is displayed only once.
+
+  13: <img alt="logo image" src="img/logo_assignment1.png"/></h1>
+-------|||
+
+[CSE] Message number 7 in line 13:2:
+It is recommended that the "height" and "width" attributes
+be used with the "img" element so browsers can leave the
+correct amount of space for them while downloading the image
+(which can take more time on mobile networks and devices).
+This will also prevent issues and annoyances due to reflow
+when the image becomes available or if image downloading is
+disabled. This message is displayed up to 5 times.
+
+  13: <img alt="logo image" src="img/logo_assignment1.png"/></h1>
+-------|||
+
+[CSE] Message number 8 in line 13:2:
+[7] Ensure that the "img" element is rarely, if ever, used
+as a layout tool. Always use CSS for layout and positioning.
+For example, do not use "img" elements to display
+transparent images which rarely convey meaning and rarely
+add anything useful to the document. This message is
+displayed only once.
+
+  13: <img alt="logo image" src="img/logo_assignment1.png"/></h1>
+---------------------------------||||||||||||||||||||||||
+
+[CSE] Message number 9 in line 13:28:
+[117] Both "height" and "width" attributes should be used
+with the "img" element. Recommend height="260" and
+width="426" for this image. Using these attributes generally
+result in faster and smoother (less jumpy) rendering. Using
+them is also considered to be good style.
+
+  14: 
+  15: <ul>
+  16:     <li><a href="assignment1_index.html">Index</a></li>
+  17:     <li><a href="assignment1_about.html">About</a></li>
+  18:     <li><a href="assignment1_roster.html">Roster</a></li>
+  19:     <li><a href="assignment1_schedule.html">Schedule</a></li>
+  20:     <li><a href="assignment1_coaches.html">Coaches</a></li>
+  21: </ul>
+
+  22: <h2><u>Game Recap</u></h2>
+-----------|
+
+[CSE] Message number 10 in line 22:6:
+[7] The "u" element is often rendered with an underline.
+Therefore, it is recommended that "u" be avoided where it
+could be confused for a hyperlink. This message is displayed
+only once.
+
+  22: <h2><u>Game Recap</u></h2>
+-----------|
+
+[CSE] Message number 11 in line 22:6:
+Ensure that the "u" element is used appropriately. In most
+cases, another element is more appropriate than the "u"
+element. For example, use "em" for stress emphasis, "b" or
+"mark" for key words or phrases (depending on the context),
+"strong" for importance, "cite" for marking book titles (or
+other titles), and "i" for an alternate voice or mood. If
+only underlined text is desired, then use CSS
+(text-decoration: underline). Use the "u" element for
+semantic reasons, like representing text with an
+unarticulated, though explicitly rendered, non-textual
+annotation, such as labeling the text as being misspelt.
+This message is displayed only once.
+
+  23: <p>The Cornhuskers started off their 2018 campaign with a resounding win against the Orange-Peelers.<br>
+  24: From the first kickoff, the Cornhuskers completely dominated the game in all facets. QB Ball Thrower<br> 
+  25: was spectacular, going 27/29 for 674 yards and 9 touchdowns in the first quarter! WR Speedy McNeil was<br> 
+  26: also in his bag, with an astounding 6 receptions for 315 yards and 3 punt return touchdowns. Hard Head<br>
+  27:  Sr. wrecked havoc on the opposing D-Line per usual with 8 sacks and 1 fumble forced. However, <br>
+  28:  the Cornhuskers received a huge blow to their #1 ranked defense, losing stud DB Chris DaBlack for<br> 
+  29:  the season in the 2nd quarter. Look for Sam Adeniy to step up and fill the void DaBlack leaves. </p>
+  30:  
+  31:  <h2><u>Next Game</u></h2>
+  32:  <p>The Cornhuskers play the Taxi - Drivers, a perennial bottom feeder in the EBG conference. Expect OC Puff to run up the score once again.</p>     
+  33:  
+  34:  <h2><u>Upcoming Events</u></h2>
+  35: 
+  36: <ul>
+  37:  <li>Cornhuskers Walk &amp; Run: Sep 18 @ 11:00 AM</li>
+  38:  <li>Homecoming Game: Nov 5 vs Wisconsin Cheese-Heads</li>
+  39:  <li>Team Recognition: Oct 26 @1:00 before the game</li>
+  40: </ul>
+  41: 
+  42: <p>Thank you for your amazing support of Iowa Cornhusker Football!</p>
+  43: 
+  44: <footer><p> &copy; Copyright 2018, Sam Adeniyi, Prince Krah</p></footer>
+  45: </body>
+  46: </html>
+  47:  
+
+[CSE] Comment number 1:
+[73] Section 508 accessibility checking is off.
+
+[CSE] Comment number 2:
+[73] WCAG 1.0 accessibility checking is off.
+
+[CSE] Comment number 3:
+[73] WCAG 2.0 accessibility checking is off.
+
+[CSE] Comment number 4:
+Accessibility checking is off. This program can help you
+make your web pages more accessible. An accessible page is
+one that more individuals can use, such as individuals who
+are blind or deaf. It can also increase the usefulness of
+your web page for individuals who browse the web using
+slower devices like older computers or wireless devices like
+mobile phones and PDAs. An accessible web site makes good
+business sense (and possibly good legal sense as well) and
+may even improve search engine rankings. You can enable or
+disable accessibility checking in the Validator Engine
+Options.
+
+[CSE] Comment number 5:
+Keyword density: Cornhuskers (6x - 2.9%), Game (5x - 2.4%),
+2018 (4x - 1.9%), 1 (3x - 1.4%), 00 (2x - 1.0%), DaBlack (2x
+- 1.0%), first (2x - 1.0%), Iowa (2x - 1.0%), News (2x -
+1.0%), quarter (2x - 1.0%), run (2x - 1.0%), Sam (2x -
+1.0%), touchdowns (2x - 1.0%), up (2x - 1.0%), yards (2x -
+1.0%), & (1x - 0.5%), 11 (1x - 0.5%), 18 (1x - 0.5%), 26 (1x
+- 0.5%), 27 (1x - 0.5%). Remember: Don't write SEO optimized
+content. Write for people, which is what search engines
+want. List limited to first 20 unique words. 54 words
+excluded.
+
+[CSE] Comment number 6:
+HTML5 document detected.
+
+[CSE] Comment number 7:
+Editing Tip: This document was specified as utf-8 encoded.
+Editing documents with the wrong encoding may cause document
+corruption. Ensure that any editor used to edit a document
+properly supports the document's encoding and properly loads
+it with the correct encoding. CSE HTML Validator's editor
+supports UTF-8 and other common encodings.
+
+[CSE] Comment number 8:
+[133] Mobility Tip #12 - Consider using CSS3 gradients
+instead of background images to increase performance and
+reduce data transfer.
+
+[CSE] Comment number 9:
+<meta name="description" content="(actual description)">
+should be used in the "head" section to provide a brief
+description of what is contained on this page. Although
+descriptions may not be used directly for rankings, search
+engines may display descriptions in search results, with
+bolding of the relevent keywords. Therefore, a good
+description can help boost click-through rates and thus
+increase traffic to a website. If you're using HTML
+Validator's integrated editor, then this can be added from
+the 'Tags' menu or from the HTML Inserter.
+
+[CSE] Comment number 10:
+Number of "a" links: 5, of which 0 (0.0%) have
+rel="nofollow". Use rel="nofollow" to tell search engines
+not to follow the link and tell Google not to transfer
+PageRank or anchor text across the link. Use rel="nofollow"
+for untrusted content, paid links, and crawl prioritization.
+Visit https://support.google.com/webmasters/answer/96569 for
+more information.
+
+[CSE] Comment number 11:
+No italicizing, emphasizing, bolding, or strong tags were
+used. Emphasizing or italicizing keywords (with the "em"
+element) may improve rankings. Similarly, using strong text
+or bolding keywords (with the "strong" element) may also
+improve rankings.
+
+[CSE] Comment number 12:
+[113] Random Search Engine Tip #8 - USE THE "ALT" ATTRIBUTE.
+Using the "alt" attribute for images is not just good for
+accessibility, it's good for search engines too. Use the
+"alt" attribute to describe images but use relevant keywords
+and search terms in the description when appropriate, but
+don't overdo it by cramming in too many keywords. Consider
+using/adding graphic images, photos, or illustrations on
+important keyword-targeted pages with the important keywords
+used in the alt text.
+
+[CSE] Comment number 13:
+0.00s, 0 errors, 1 warning, 11 messages, 13 validator
+comments, 47 lines, 40 elements (with 31 end tags), 1
+document comment, 2 character references, 208 words spell
+checked (0 in comments).
+
+--------------------------------------------------
+
+<html> (4)
+| <head> (6)
+| | <meta /> (7)
+| | <title> (8) </title> (8)
+| </head> (9)
+| <body> (11)
+| | <h1> (12)
+| | | <br /> (12)
+| | | <img /> (13)
+| | </h1> (13)
+| | <ul> (15)
+| | | <li> (16)
+| | | | <a> (16) </a> (16)
+| | | </li> (16)
+| | | <li> (17)
+| | | | <a> (17) </a> (17)
+| | | </li> (17)
+| | | <li> (18)
+| | | | <a> (18) </a> (18)
+| | | </li> (18)
+| | | <li> (19)
+| | | | <a> (19) </a> (19)
+| | | </li> (19)
+| | | <li> (20)
+| | | | <a> (20) </a> (20)
+| | | </li> (20)
+| | </ul> (21)
+| | <h2> (22)
+| | | <u> (22) </u> (22)
+| | </h2> (22)
+| | <p> (23)
+| | | <br /> (23)
+| | | <br /> (24)
+| | | <br /> (25)
+| | | <br /> (26)
+| | | <br /> (27)
+| | | <br /> (28)
+| | </p> (29)
+| | <h2> (31)
+| | | <u> (31) </u> (31)
+| | </h2> (31)
+| | <p> (32) </p> (32)
+| | <h2> (34)
+| | | <u> (34) </u> (34)
+| | </h2> (34)
+| | <ul> (36)
+| | | <li> (37) </li> (37)
+| | | <li> (38) </li> (38)
+| | | <li> (39) </li> (39)
+| | </ul> (40)
+| | <p> (42) </p> (42)
+| | <footer> (44)
+| | | <p> (44) </p> (44)
+| | </footer> (44)
+| </body> (45)
+</html> (46)
