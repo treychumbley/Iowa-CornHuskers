@@ -1,0 +1,43 @@
+body {
+	background-color: #155730;
+	color: #EBC50C;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #EBC50C;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #155730;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #137437;
+	color: #EBC50C;
+}
+
+p.center {
+	text-align: center;
+
+}
+
+footer {
+	text-align: center;
+}
