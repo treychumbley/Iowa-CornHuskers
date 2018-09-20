@@ -1,7 +1,50 @@
-body{
-    background: #ece3d7;
+body {
+    background: #ffefb3;
 }
 
-p{
+p {
     font-family: arial,sans-serif;
+}
+
+/* This is the link menu. */
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: green;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* This is the styled table. */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
