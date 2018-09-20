@@ -5,10 +5,67 @@
 <head>
     <meta charset="utf-8">
     <title> Iowa Cornhuskers</title>
-    <link rel="stylesheet" type="text/css" href="iowa_cornhuskers.css">
+  <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EBC50C;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a, .dropbtn {
+    display: block;
+    color: #155730;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #137437;
+    color: #EBC50C;
+  }
+
+  li.dropdown {
+    float: right;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EBC50C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #155730;
+    padding: 24px 26px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: #137437}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+h1 {
+  text-align: center;
+}
+
+
+</style>
 </head>
 
-<body>
+<body style="background-color: #155730; color: white;">
 <nav>  
 <ul>
     <li><a href="assignment1_about.html">About</a></li>
@@ -16,24 +73,22 @@
     <li><a href="assignment1_schedule.html">Schedule</a></li>
     <li><a href="assignment1_coaches.html">Coaches</a></li>
     <li><a href="assignment1_news.html">News</a></li>
+    <li><a href="assignment1_index.html">Index</a></li>
+    <li class="dropdown">
+      <a style="float: right;" class="dropbtn" href="login">Sign Up</a>
+      <div class="dropdown-content">
+        <a href="sign_up.html">Sign Up</a>
+        <a href="login.html">Login</a>
+      </div>
+    </li>
 </ul>
 </nav>
-<h1><u>Official Home of the Iowa Cornhuskers</u><br>
-  <img alt="logo image" src="img/logo_assignment1.png"/></h1>
+<h1>Official Home of the Iowa Cornhuskers</h1>
 
-<form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname"><br>
-  User name:<br>
-  <input type="text" name="username"><br>
-  Password<br>
-  <input type="text" name="password"><br>
-  <input type="submit" value="Sign Up">
-</form>
+<p style="text-align: center;"><img alt="logo image" src="img/logo_assignment1.png"/></p>
+
 <p></p>
 
-<footer> &copy; Copyright 2018, Sam Adeniyi, Prince Krah</footer>
+<footer style="text-align: center;"> &copy; Copyright 2018, Sam Adeniyi, Prince Krah</footer>
 </body>
 </html>
