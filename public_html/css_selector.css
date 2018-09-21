@@ -6,6 +6,14 @@ p {
     font-family: arial,sans-serif;
 }
 
+h1 {
+    text-align: center;
+        color: #18261d;
+    border-style: ridge;
+    border-width:5px;
+    border-color:#d99b29;
+}
+
 /* This is the link menu. */
 .vertical-menu {
     width: 200px;
@@ -47,4 +55,65 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+#SocialMedia {
+    border-left: 6px solid white;
+    background-color: lightgrey;
+}
+#SocialMedia2 {
+    border-left: 6px solid white;
+    background-color: lightgrey;
+}
+#SocialMedia3 {
+    border-left: 6px solid white;
+    background-color: lightgrey;
+}
+.intro {
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+/* Images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
