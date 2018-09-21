@@ -50,28 +50,34 @@ table {
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 5px;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+/* Id and Class Tags */
 #SocialMedia {
-    border-left: 6px solid white;
-    background-color: lightgrey;
+    border-left: 6px solid;
+    border-left-color: #18261d;
+    background-color: #d99b29;
 }
 #SocialMedia2 {
-    border-left: 6px solid white;
-    background-color: lightgrey;
+    border-left: 6px solid;
+    border-left-color: #d99b29;
+    background-color: #84a67b;
 }
 #SocialMedia3 {
-    border-left: 6px solid white;
-    background-color: lightgrey;
+    border-left: 6px solid;
+    border-left-color: #18261d;
+    background-color: #d99b29;
 }
 .intro {
-    border: 2px solid grey;
+    border: 5px dashed;
+    border-color: #18261d;
     border-radius: 5px;
+    padding: 5px;
 }
 
 /* Images */
