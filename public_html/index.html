@@ -81,23 +81,32 @@
 
 
 <form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname"><br>
-  User name:<br>
-  <input type="text" name="username"><br>
-  Password<br>
-  <input type="text" name="password"><br>
-  <button type="button" class="btn btn-secondary">Sign Up</button>
+    <div class="form-group">
+    <label for="formGroupExampleInput">First Name</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First name">
+  </div>
+  <div class="form-group">
+  <label for="exampleInputPassword1">Last Name</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last name">
+  </div>
+  <div class="form-group">
+  <label for="formGroupExampleInput">Username</label>
+  <input type="text" class="form-control" placeholder="Username">
+  </div>
+  <div class="form-group">
+  <label for="exampleInputPassword1">Password</label>
+  <input type="password" class="form-control" id=exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="button" class="btn btn-secondary">Sign Up</button><br>
 </form>
+
 
 <div class="jumbotron">
   <h1 class="display-4">Welcome!</h1>
   <p class="lead">Welcome to the official site of the Iowa Cornhuskers. Be sure to check out our news page for upcoming events.</p>
   <hr class="my-4">
   <p>First time here? Click below to find out more about the team.</p>
-  <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more</a>
+  <a class="btn btn-dark btn-primary" href="about.html" role="button">Learn more</a>
 </div>
 
 
