@@ -13,10 +13,21 @@
 
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-u4BOm6DXWNW9DDMz3uKYKOOtsYm6pt8m8DxK2sVQ9RJVnWP8mjOIct/zzXkwobmN" crossorigin="anonymous">
+
+    <style>
+      body {
+        background-color: #EBC50C;
+        text-align: center;
+      }
+      .form-group {
+        width: 60%;
+        padding-left: 575px;
+      }
+    </style>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="assignment1_index.html">Iowa Cornhuskers</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,10 +35,6 @@
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="assignment1_about.html">About</a>
-          </li>
-
           <li class="nav-item">
             <a class="nav-link" href="assignment1_roster.html">Roster</a>
           </li>
@@ -58,23 +65,37 @@
       </div>
     </nav>
 <h1>Sign Up for Cornhusker Football</h1>
+<p></p>
+<p></p>
 
 <form>
-  Enter your first name:<br>
-  <input type="text" name="firstname"><br>
-  Enter your last name:<br>
-  <input type="text" name="lastname"><br>
-  Enter your preferred e-mail:<br>
-  <input type="text" name="e-mail"><br>
-  Enter a username:<br>
-  <input type="text" name="username"><br>
-  Enter a password:<br>
-  <input type="text" name="password"><br>
-  <p></p>
-  <input type="submit" value="Sign Up">
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Last Name</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Last Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter a Password">
+    <small id="emailHelp" class="form-text text-muted">All information provided is 100% confidential.</small>
+  </div>
+
+
+  <button type="submit" class="btn btn-dark">Submit</button>
+  
 </form>
 <p></p>
-<footer>&copy; Copyright 2018, Sam Adeniyi, Prince Krah</footer>
+
+<div class="alert alert-dark" role="alert">
+<footer style="text-align: center;">&copy; Copyright 2018, Sam Adeniyi, Prince Krah</footer>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
