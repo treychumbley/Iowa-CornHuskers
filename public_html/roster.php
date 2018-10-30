@@ -39,43 +39,7 @@
 
 <body>
 <div class="body1">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Iowa Cornhuskers</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="roster.html">Roster <span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="coaches.html">Coaches</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="news.html">News</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="sign_up.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Sign Up
-            </a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="sign_up.html">Sign Up</a>
-              <a class="dropdown-item" href="login.html">Login</a>
-            </div>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
+<?php include '../resources/navigation.php'; ?>
 <h1>Iowa Cornhusker's 2018 Roster</h1>
 <img alt="logo image" src="img/logo_assignment1.png"/>
 
@@ -135,10 +99,7 @@
 </div>
 </div>
 
-<div class="jumbotronfooter">
-<img alt="EBG pic" src="img/EBGpic_assignment1.png" />
-<footer>&copy; Copyright 2018, Sam Adeniyi, Katelyn Mangold, Trey Chumbley</footer>
-</div>
+<?php include '../resources/footer.php'; ?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
